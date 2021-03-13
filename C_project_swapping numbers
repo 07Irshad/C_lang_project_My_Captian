@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+	int num1,num2;
+	printf("Enter the First Number :   ");
+	scanf("%d",&num1);
+	printf("Enter the Second Number :   ");
+	scanf("%d",&num2);
+	//using sum to swap numbers
+	num1 = num1+num2;
+	num2 = num1-num2;
+	num1 = num1-num2;
+	printf("\nAfter swapping , First number becomes %d and Second number becomes %d",num1,num2);
+}
