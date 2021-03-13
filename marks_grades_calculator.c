@@ -4,17 +4,17 @@ int main()
 	int marks;
 	printf("Enter your Marks :   ");
 	scanf("%d",&marks);
-	if(marks>=45)
+	if(marks>=40)
 	{
-		if(marks>+88)
+		if(marks>=85 && marks<=100)
 		{
 			printf("Grade A");
 		}
-		else if(marks>=75 && marks<88)
+		else if(marks>=70 && marks<84)
 		{
 			printf("Grade B");
 		}
-		else if (marks>=61 && marks<75)
+		else if (marks>=55 && marks<69)
 		{
 			printf("Grade C");
 		}
