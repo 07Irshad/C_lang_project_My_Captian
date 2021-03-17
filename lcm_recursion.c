@@ -26,6 +26,6 @@ int main()
 	{
 		res=lcm(a,b);
 	}
-	printf("\nThe LCM of the given numbers is %d \n",res);
+	printf("\nThe LCM of the %d and %d is %d \n",a,b,res);
 	return 0;
 }
